@@ -1,0 +1,75 @@
+/* CSS GLOBAL STYLES*/
+
+ *{ margin: 0; padding: 0; box-sizing: border-box; }
+    
+    @font-face {
+        font-family: 'arial';
+        src: url('fonts/ArialMT.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body {
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: arial, sans-serif;
+        font-size: 100%; /* set ems to 16px */
+        color: #9E5A16;
+                }
+    h1 {    
+        margin-bottom: 20px;   
+    }
+    .logo {
+        max-width: 300px;
+        float: right;
+        margin-bottom: 8px;      
+    }
+    hr {clear: both;
+        border-top: 4px solid #73502A;
+        
+    }     
+    h2, h3 {
+        font-size: 1.5em;
+        line-height: 200%;
+        /*font-family: 'rope';*/
+        color:black;
+        padding-top: 16px;
+        margin-bottom: 8px;
+    }
+    p {
+        font-size: 1em;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+    ol, ul {
+        margin-bottom: 10px;
+        padding: 0 45px;
+    }
+    blockquote {
+        float: right;
+        font-size: 1.5em;
+        color: #9E5A16;
+        line-height: 100%;
+        font-style: italic;
+        max-width: 200px;
+        margin: 75px 0px 10px 50px;
+        padding: 8px 0px;
+        border-top: 2px solid #73502A;
+        border-bottom: 2px solid #73502A;
+        
+    }
+    li {
+        font-size: 1em;
+        line-height: 150%;
+    }
+    .tel { 
+        float: left;
+    
+    }
+    .email {
+        float: right;
+    }
+    footer {
+        margin-top: 10px;
+    } 
+    </styles>
